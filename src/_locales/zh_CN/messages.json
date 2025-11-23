@@ -1,0 +1,42 @@
+{
+    "appName": {
+        "message": "KameLoma",
+        "description": "The name of the application"
+    },
+    "appDesc": {
+        "message": "日语汉字注音助手",
+        "description": "The description of the application"
+    },
+    "subtitle": {
+        "message": "日语汉字注音助手",
+        "description": "Subtitle in the popup"
+    },
+    "fontSize": {
+        "message": "字体大小",
+        "description": "Label for font size slider"
+    },
+    "fontColor": {
+        "message": "字体颜色",
+        "description": "Label for font color picker"
+    },
+    "autoRun": {
+        "message": "在此网站自动运行",
+        "description": "Label for auto-run toggle"
+    },
+    "maskMode": {
+        "message": "遮罩模式 (鼠标悬停显示)",
+        "description": "Label for mask mode toggle"
+    },
+    "ttsMode": {
+        "message": "点击朗读",
+        "description": "Label for TTS mode toggle"
+    },
+    "annotateBtn": {
+        "message": "添加注音",
+        "description": "Text for annotate button"
+    },
+    "clearBtn": {
+        "message": "清除注音",
+        "description": "Text for clear button"
+    }
+}

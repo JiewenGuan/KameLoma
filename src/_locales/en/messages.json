@@ -1,0 +1,42 @@
+{
+    "appName": {
+        "message": "KameLoma",
+        "description": "The name of the application"
+    },
+    "appDesc": {
+        "message": "Japanese Kanji Romaji Annotator",
+        "description": "The description of the application"
+    },
+    "subtitle": {
+        "message": "Japanese Kanji Romaji Helper",
+        "description": "Subtitle in the popup"
+    },
+    "fontSize": {
+        "message": "Font Size",
+        "description": "Label for font size slider"
+    },
+    "fontColor": {
+        "message": "Font Color",
+        "description": "Label for font color picker"
+    },
+    "autoRun": {
+        "message": "Auto-run on this site",
+        "description": "Label for auto-run toggle"
+    },
+    "maskMode": {
+        "message": "Mask Mode (Hover to reveal)",
+        "description": "Label for mask mode toggle"
+    },
+    "ttsMode": {
+        "message": "Click to Read",
+        "description": "Label for TTS mode toggle"
+    },
+    "annotateBtn": {
+        "message": "Annotate",
+        "description": "Text for annotate button"
+    },
+    "clearBtn": {
+        "message": "Clear",
+        "description": "Text for clear button"
+    }
+}

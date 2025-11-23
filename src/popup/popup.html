@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KameLoma</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-area">
+        <h1>KameLoma</h1>
+        <span class="badge">PRO</span>
+      </div>
+      <p class="subtitle" data-i18n="subtitle">Japanese Kanji Romaji Helper</p>
+    </header>
+
+    <main>
+      <section class="card settings-card">
+        <div class="setting-group">
+          <div class="setting-header">
+            <label for="fontSize" data-i18n="fontSize">Font Size</label>
+            <span id="fontSizeValue" class="value-badge">12px</span>
+          </div>
+          <div class="range-wrapper">
+            <input type="range" id="fontSize" min="10" max="30" value="12">
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="setting-group">
+          <div class="setting-header">
+            <label for="fontColor" data-i18n="fontColor">Font Color</label>
+            <span id="fontColorValue" class="value-badge">#ff0000</span>
+          </div>
+          <div class="color-wrapper">
+            <input type="color" id="fontColor" value="#ff0000">
+            <div class="color-preview"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card settings-card" style="margin-top: 12px;">
+        <div class="setting-group">
+          <div class="setting-header">
+            <label for="autoRunToggle" data-i18n="autoRun">Auto-run on this site</label>
+            <label class="switch">
+              <input type="checkbox" id="autoRunToggle">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="setting-group">
+          <div class="setting-header">
+            <label for="maskModeToggle" data-i18n="maskMode">Mask Mode</label>
+            <label class="switch">
+              <input type="checkbox" id="maskModeToggle">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="setting-group">
+          <div class="setting-header">
+            <label for="ttsModeToggle" data-i18n="ttsMode">Click to Read</label>
+            <label class="switch">
+              <input type="checkbox" id="ttsModeToggle">
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <div class="actions">
+        <button id="annotateBtn" class="btn btn-primary">
+          <span class="icon">✨</span>
+          <span data-i18n="annotateBtn">Annotate</span>
+        </button>
+        <button id="clearBtn" class="btn btn-secondary">
+          <span class="icon">🗑️</span>
+          <span data-i18n="clearBtn">Clear</span>
+        </button>
+      </div>
+    </main>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

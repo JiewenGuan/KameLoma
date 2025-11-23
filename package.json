@@ -1,0 +1,25 @@
+{
+  "name": "kameloma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build.mjs",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0"
+  },
+  "devDependencies": {
+    "path-browserify": "^1.0.1",
+    "rimraf": "^6.1.2",
+    "vite": "^7.2.4",
+    "vite-plugin-static-copy": "^3.1.4"
+  }
+}
