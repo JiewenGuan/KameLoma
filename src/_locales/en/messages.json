@@ -38,5 +38,9 @@
     "clearBtn": {
         "message": "Clear",
         "description": "Text for clear button"
+    },
+    "githubLink": {
+        "message": "View on GitHub",
+        "description": "Link to GitHub repository"
     }
 }

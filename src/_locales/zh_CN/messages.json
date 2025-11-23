@@ -38,5 +38,9 @@
     "clearBtn": {
         "message": "清除注音",
         "description": "Text for clear button"
+    },
+    "githubLink": {
+        "message": "访问 GitHub 仓库",
+        "description": "Link to GitHub repository"
     }
 }

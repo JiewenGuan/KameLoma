@@ -1,5 +1,7 @@
 # KameLoma - 日语汉字注音助手 (Japanese Kanji Romaji Annotator)
 
+**Watched enough anime to understand Japanese, but too lazy to memorize Hiragana and Katakana? You've come to the right place.**
+
 **KameLoma** is a powerful browser extension designed to help Japanese learners by automatically annotating Kanji with Romaji readings. It transforms any web page into a learning resource.
 
 ## ✨ Features
@@ -49,4 +51,15 @@
 
 ## 📄 License
 
-MIT
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** License.
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit.
+- **NonCommercial** — You may not use the material for commercial purposes.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+See the [LICENSE](LICENSE) file for details.
